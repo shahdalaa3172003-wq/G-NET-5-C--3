@@ -25,6 +25,17 @@
 // Result: A runtime error (crash) because "12a" is not a valid number.
 // The Fix: You should use int.TryParse() if you aren't sure the input is purely numeric, as it handles errors without crashing.
         #endregoin
-      
+         #region Q5
+         // To handle this without crashing, you use int.TryParse(). This method returns true if the conversion succeeds and false if it fails.
+         // string s = "12a";
+         //    if (int.TryParse(s, out int x))
+         //    {
+         //        Console.WriteLine(x);
+         //    }
+         //    else
+         //    {
+         //        Console.WriteLine("Invalid");
+         //    }
+       #endregoin
     
     
