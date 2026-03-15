@@ -8,10 +8,10 @@
 //   C# performs truncation, which means it simply "chops off" the decimal part (.99) rather than rounding it. 
 //   This is an explicit cast because it results in data loss.
     #endregoin
-    #region Q2
-    To get the correct decimal result (2.5) with the smallest change, turn one of the numbers into a double:
-double d2 = n / 2.0; 
-In C#, int / int always results in an int. By changing 2 to 2.0, the compiler promotes the entire calculation to floating-point division, preserving the decimal.
+//     #region Q2
+//     To get the correct decimal result (2.5) with the smallest change, turn one of the numbers into a double:
+// double d2 = n / 2.0; 
+// In C#, int / int always results in an int. By changing 2 to 2.0, the compiler promotes the entire calculation to floating-point division, preserving the decimal.
       #endregoin
     
     
