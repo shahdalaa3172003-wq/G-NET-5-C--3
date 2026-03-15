@@ -19,6 +19,12 @@
 // Console.ReadLine() always returns data as a string.
 // int.Parse() converts that string into an actual int so you can perform math or logic with it.
       #endregoin
+       #region Q4
+//        This code will throw a FormatException and the program will crash.
+//     The int.Parse() method expects a string that contains only numeric digits. Because your string "12a" contains the letter 'a', the method cannot convert it into a valid integer.
+// Result: A runtime error (crash) because "12a" is not a valid number.
+// The Fix: You should use int.TryParse() if you aren't sure the input is purely numeric, as it handles errors without crashing.
+        #endregoin
       
     
     
